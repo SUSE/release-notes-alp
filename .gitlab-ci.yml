@@ -3,4 +3,5 @@ image: registry.opensuse.org/documentation/containers/containers/opensuse-daps-t
 validate:
   stage: test
   script:
-    - make validate
+    - make validate dolomite
+    - make validate marble
