@@ -1,0 +1,25 @@
+# tag::dolomite[]
+== Dolomite-only note
+
+This is a note that only appears in Dolomite release notes.
+# end::dolomite[]
+
+# tag::marble[]
+== Marble-only note
+
+This is a note that only appears in Marble release notes.
+# end::marble[]
+
+# tag::marble[]
+
+# tag::dolomite[]
+== Marble and Dolomite-only note
+
+This is a note that appears in either Marble or Dolomite release notes.
+# end::dolomite[]
+
+# end::marble[]
+
+== All release notes
+
+This note appears in all release notes.

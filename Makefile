@@ -16,6 +16,14 @@ ifneq "$(LIFECYCLE)" "$(filter $(LIFECYCLE),$(LIFECYCLE_VALID))"
   override LIFECYCLE := maintained
 endif
 
+PRODUCT_VERSION := dolomite
+
+ifneq "$(word 2, $(MAKECMDGOALS))" ""
+  PRODUCT_VERSION := $(word 2, $(MAKECMDGOALS))
+endif
+dc_file := DC-release-notes-$(PRODUCT_VERSION)
+mainfile  := adoc/release-notes-$(PRODUCT_VERSION).adoc
+
 daps_command := daps
 
 xsltproc_command := xsltproc \
@@ -30,8 +38,7 @@ xsltproc_command := xsltproc \
   --xinclude \
   --nonet
 
-mainfile  := adoc/release-notes.adoc
-dc_file   := DC-release-notes
+
 src_files := $(wildcard adoc/*.adoc adoc/*.xml)
 
 daps_xslt_rn_dir := /usr/share/daps/daps-xslt/relnotes

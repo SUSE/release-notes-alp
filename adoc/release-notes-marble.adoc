@@ -16,6 +16,10 @@ include::about-rn.adoc[]
 
 Information in this section applies to all architectures supported by {product} {this-version}.
 
+include::desktop.adoc[tag=!*]
+
+include::desktop.adoc[tag=marble]
+
 // END ARCH INDEPENDENT
 
 // ===================================================================

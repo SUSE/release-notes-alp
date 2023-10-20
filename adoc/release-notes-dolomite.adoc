@@ -1,0 +1,28 @@
+include::attributes-generic.adoc[]
+include::attributes-product.adoc[]
+
+[#rnotes]
+= {rnotes}
+
+include::abstract.adoc[]
+
+include::about-rn.adoc[]
+
+// ===================================================================
+
+// START ARCH-INDEPENDENT
+[#all-architecture]
+== Changes affecting all architectures
+
+Information in this section applies to all architectures supported by {product} {this-version}.
+
+include::desktop.adoc[tag=**]
+
+include::desktop.adoc[tag=dolomite]
+
+// END ARCH INDEPENDENT
+
+// ===================================================================
+include::source-code.adoc[]
+
+include::legal.adoc[]
