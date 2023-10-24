@@ -8,19 +8,37 @@ include::abstract.adoc[]
 
 include::about-rn.adoc[]
 
-// ===================================================================
+// START ARCH-INDEPENDENT - DOLOMITE 1.0
+== Dolomite 1.0
 
-// START ARCH-INDEPENDENT
-[#all-architecture]
-== Changes affecting all architectures
+These are Dolomite 1.0 release notes.
+
+[#all-architecture-10]
+=== Changes affecting all architectures
 
 Information in this section applies to all architectures supported by {product} {this-version}.
 
-include::desktop.adoc[tag=**]
+include::desktop.adoc[tag=dolomite-10]
 
-include::desktop.adoc[tag=dolomite]
+// END ARCH INDEPENDENT - DOLOMITE 1.0
 
-// END ARCH INDEPENDENT
+// ===================================================================
+
+// ===================================================================
+
+// START ARCH-INDEPENDENT - DOLOMITE 1.1
+== Dolomite 1.1
+
+These are Dolomite 1.0 release notes.
+
+[#all-architecture-11]
+=== Changes affecting all architectures
+
+Information in this section applies to all architectures supported by {product} {this-version}.
+
+include::desktop.adoc[tag=dolomite-11]
+
+// END ARCH INDEPENDENT - DOLOMITE 1.1
 
 // ===================================================================
 include::source-code.adoc[]

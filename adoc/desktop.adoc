@@ -1,11 +1,17 @@
-# tag::dolomite[]
-== Dolomite-only note
+# tag::dolomite-10[]
+==== Dolomite 1.0-only note
 
 This is a note that only appears in Dolomite release notes.
-# end::dolomite[]
+# end::dolomite-10[]
+
+# tag::dolomite-11[]
+==== Dolomite 1.1-only note
+
+This is a note that only appears in Dolomite release notes.
+# end::dolomite-11[]
 
 # tag::marble[]
-== Marble-only note
+==== Marble-only note
 
 This is a note that only appears in Marble release notes.
 # end::marble[]
@@ -13,13 +19,13 @@ This is a note that only appears in Marble release notes.
 # tag::marble[]
 
 # tag::dolomite[]
-== Marble and Dolomite-only note
+==== Marble and Dolomite-only note
 
 This is a note that appears in either Marble or Dolomite release notes.
 # end::dolomite[]
 
 # end::marble[]
 
-== All release notes
+==== All release notes
 
 This note appears in all release notes.
