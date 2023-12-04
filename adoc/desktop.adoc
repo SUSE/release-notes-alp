@@ -1,13 +1,13 @@
 # tag::dolomite-10[]
-==== Dolomite 1.0-only note
+==== {product} 1.0-only note
 
-This is a note that only appears in Dolomite release notes.
+This is a note that only appears in ALP 1.0 release notes.
 # end::dolomite-10[]
 
 # tag::dolomite-11[]
-==== Dolomite 1.1-only note
+==== {product} 1.1-only note
 
-This is a note that only appears in Dolomite release notes.
+This is a note that only appears in ALP 1.1 release notes.
 # end::dolomite-11[]
 
 # tag::marble[]
@@ -21,7 +21,7 @@ This is a note that only appears in Marble release notes.
 # tag::dolomite[]
 ==== Marble and Dolomite-only note
 
-This is a note that appears in either Marble or Dolomite release notes.
+This is a note that appears in either Marble or Dolomite (both unversioned) release notes.
 # end::dolomite[]
 
 # end::marble[]

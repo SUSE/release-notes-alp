@@ -1,6 +1,5 @@
 
 include::attributes-generic.adoc[]
-include::attributes-product.adoc[]
 
 [#intro]
 == {product}
