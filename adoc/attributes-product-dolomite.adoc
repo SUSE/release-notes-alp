@@ -14,8 +14,8 @@ endif::[]
 :productnameshort: ALP
 
 :rel-date: June 2024
-:this-version: 1.0 and others
-:next-version: 1.1 and 1.2
+:this-version: 1.0
+:next-version: 1.1
 
 :abstract: This document provides an overview of high-level general features, capabilities, and limitations of {product}{nbsp}{this-version} and important product updates.
 
