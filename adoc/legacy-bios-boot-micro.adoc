@@ -1,0 +1,6 @@
+// ===================================================================
+include::attributes-generic.adoc[]
+include::attributes-product-micro.adoc[]
+// START ARCH-INDEPENDENT
+=== Legacy BIOS boot support is deprecated
+With {{product} {this-version} legacy BIOS boot support on Intel/AMD 64bit systems (x86_64) is deprecated and will be removed with a later release.

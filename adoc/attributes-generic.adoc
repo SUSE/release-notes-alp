@@ -27,6 +27,7 @@
 :rversion: @VERSION@
 
 :yast: YaST
+:yast2: YaST2
 :autoyast: AutoYaST
 
 :suse: SUSE
@@ -130,6 +131,7 @@
 :malireg: {mali}*
 :cortex: Cortex
 :cortexreg: {cortex}*
+:cockpit: Cockpit
 :neoverse: Neoverse
 :neoversereg: {neoverse}*
 :brcm: Broadcom

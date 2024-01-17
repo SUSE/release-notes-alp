@@ -1,0 +1,20 @@
+// ===================================================================
+include::attributes-generic.adoc[]
+include::attributes-product-micro.adoc[]
+// START ARCH-INDEPENDENT
+[#general-features-and-fixes]
+== General features and fixes
+include::full-disk-encryption-micro.adoc[]
+include::confidental-compute-micro.adoc[]
+include::web-based-system-management-micro.adoc[]
+include::real-time-kernel-micro.adoc[]
+include::security-framework-micro.adoc[]
+include::podman-upgrade-micro.adoc[]
+include::legacy-bios-boot-micro.adoc[]
+include::lttng-deprecated-micro.adoc[]
+include::cockpit-micro.adoc[]
+include::suse-manager-micro.adoc[]
+
+
+
+
