@@ -4,6 +4,7 @@
 # Copyright (c) 2014 Rick Salevsky <rsalevsky@suse.de>
 # Copyright (c) 2014, 2015, 2016 Karl Eichwalder <ke@suse.de>
 # Copyright (c) 2015, 2016, 2017, 2018, 2019 Stefan Knorr <sknorr@suse.de>
+# Copyright (c) 2020, 2021, 2023, 2024 Lukas Kucharczyk <lkucharczyk@suse.com>
 #
 
 
@@ -16,11 +17,8 @@ ifneq "$(LIFECYCLE)" "$(filter $(LIFECYCLE),$(LIFECYCLE_VALID))"
   override LIFECYCLE := maintained
 endif
 
-PRODUCT_VERSION := dolomite
+PRODUCT_VERSION ?= dolomite
 
-ifneq "$(word 2, $(MAKECMDGOALS))" ""
-  PRODUCT_VERSION := $(word 2, $(MAKECMDGOALS))
-endif
 dc_file := DC-release-notes-$(PRODUCT_VERSION)
 mainfile  := adoc/release-notes-$(PRODUCT_VERSION).adoc
 
@@ -53,7 +51,7 @@ yast_html_result_dir := build/release-notes/yast-html
 yast_html_result     := $(yast_html_result_dir)/release-notes.html
 
 
-.PHONY: clean html pdf single-html text validate yast-html 
+.PHONY: all clean html pdf single-html text validate yast-html 
 
 all: validate single-html yast-html pdf text html
 
