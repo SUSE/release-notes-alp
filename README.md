@@ -1,4 +1,4 @@
-# SUSE ALP 1.0 (ALP 1.0) Release Notes
+# SUSE ALP Release Notes
 
 This repository contains release notes for SUSE ALP written in [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/).
 
