@@ -25,15 +25,17 @@ rpm --docfiles -qp FILENAME.rpm | grep man
 [#intro-documentation-external]
 ==== Online documentation
 
+For the most up-to-date version of the documentation for {productname}{nbsp}{this-version}, see:
+
 // disclaimer beta
 ifeval::["{lifecycle}" == "beta"]
-* For the most up-to-date version of the documentation for {productname}{nbsp}{this-version}, see {doc-url-beta} (draft version).
+*  {doc-url-beta} (draft version).
 endif::[]
 // disclaimer maintained
 ifeval::["{lifecycle}" == "maintained"]
-* For the most up-to-date version of the documentation for {productname}{nbsp}{this-version}, see {doc-url}.
+*  {doc-url}.
 endif::[]
 // disclaimer unmaintained
 ifeval::["{lifecycle}" == "unmaintained"]
-* For the most up-to-date version of the documentation for {productname}{nbsp}{this-version}, see {doc-url}.
+*  {doc-url}.
 endif::[]
