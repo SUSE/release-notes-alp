@@ -1,5 +1,5 @@
 include::attributes-generic.adoc[]
-include::attributes-product.adoc[]
+include::attributes-product-micro.adoc[]
 
 [#rnotes]
 = {rnotes}
@@ -8,21 +8,18 @@ include::abstract.adoc[]
 
 include::about-rn.adoc[]
 
-// ===================================================================
-//Intro abour SLE Micro
-include::what-is-sle-micro.adoc[]
+include::about-documentation.adoc[]
 
 // ===================================================================
 
 // START ARCH-INDEPENDENT
-[#all-architecture]
 == Changes affecting all architectures
 
-Information in this section applies to all architectures supported by {product} {this-version}.
+Information in this section applies to all architectures supported by {productnameshort} {this-version}.
 
-include::desktop.adoc[tag=!*]
+include::installation-micro.adoc[]
 
-include::desktop.adoc[tag=marble]
+include::general-features-and-fixes-micro.adoc[]
 
 // END ARCH INDEPENDENT
 

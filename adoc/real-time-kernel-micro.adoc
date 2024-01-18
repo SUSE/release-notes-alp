@@ -1,9 +1,0 @@
-// ===================================================================
-include::attributes-generic.adoc[]
-include::attributes-product-micro.adoc[]
-// START ARCH-INDEPENDENT
-=== Real-time Kernel
-For the Intel/AMD 64bit architecture (x86_64) the real-time (rt) kernel is provided in addition to the default kernel.
-Support for RT includes support for Kernel Live Patching on the RT kernel.
-Note: When using the RT kernel, KVM is not supported, and workloads need to be run within containers
-Containers need special treatment with RT.

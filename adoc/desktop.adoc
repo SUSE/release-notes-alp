@@ -10,25 +10,11 @@ This is a note that only appears in ALP 1.0 release notes.
 This is a note that only appears in ALP 1.1 release notes.
 # end::dolomite-11[]
 
-# tag::marble[]
-==== Marble-only note
-
-Information in this section applies to all architectures supported by SUSE Linux Enterprise Micro 6.0.
-include::installation-micro.adoc[]
-include::general-features-and-fixes-micro.adoc[]
-
-
-# end::marble[]
-
-# tag::marble[]
-
 # tag::dolomite[]
 ==== Marble and Dolomite-only note
 
 This is a note that appears in either Marble or Dolomite (both unversioned) release notes.
 # end::dolomite[]
-
-# end::marble[]
 
 ==== All release notes
 

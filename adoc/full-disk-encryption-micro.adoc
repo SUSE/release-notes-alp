@@ -1,7 +1,0 @@
-include::attributes-generic.adoc[]
-
-[#Full-disk-encryption-micro]
-=== Full Disk Encryption
-SLE Micro is focused on distributed infrastructures / Edge deployments, which means systems running SLE Micro are not necessarily within DCs or secure locations.
-We therefore have improved our security story and added support for full disk encryption (FDE) to SLE
-Micro.

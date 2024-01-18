@@ -1,5 +1,0 @@
-include::attributes-generic.adoc[]
-
-[#Confidential-compute]
-=== Confidential Compute
-We are offering capabilities for confidential compute on SLE Micro via the included virtualization stack.
