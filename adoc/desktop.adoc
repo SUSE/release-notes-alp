@@ -1,11 +1,11 @@
 # tag::dolomite-10[]
-==== {product} 1.0-only note
+==== {productname} 1.0-only note
 
 This is a note that only appears in ALP 1.0 release notes.
 # end::dolomite-10[]
 
 # tag::dolomite-11[]
-==== {product} 1.1-only note
+==== {productname} 1.1-only note
 
 This is a note that only appears in ALP 1.1 release notes.
 # end::dolomite-11[]

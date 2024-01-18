@@ -1,7 +1,12 @@
 include::attributes-generic.adoc[]
 include::attributes-product-micro.adoc[]
 
-[#rnotes]
+ifdef::release-notes-all[]
+= {productname}
+{abstract}
+endif::[]
+
+ifndef::release-notes-all[]
 = {rnotes}
 
 include::abstract.adoc[]
@@ -9,6 +14,7 @@ include::abstract.adoc[]
 include::about-rn.adoc[]
 
 include::about-documentation.adoc[]
+endif::[]
 
 // ===================================================================
 
@@ -24,6 +30,12 @@ include::general-features-and-fixes-micro.adoc[]
 // END ARCH INDEPENDENT
 
 // ===================================================================
+
+ifndef::release-notes-all[]
+
 include::source-code.adoc[]
 
 include::legal.adoc[]
+
+endif::[]
+

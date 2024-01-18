@@ -9,14 +9,14 @@ include::abstract.adoc[]
 include::about-rn.adoc[]
 
 // START ARCH-INDEPENDENT - DOLOMITE 1.0
-== {product} 1.0
+== {productname} 1.0
 
-These are {product} 1.0 release notes.
+These are {productname} 1.0 release notes.
 
 [#all-architecture-10]
 === Changes affecting all architectures
 
-Information in this section applies to all architectures supported by {product} 1.0.
+Information in this section applies to all architectures supported by {productname} 1.0.
 
 include::desktop.adoc[tag=dolomite-10]
 
@@ -27,14 +27,14 @@ include::desktop.adoc[tag=dolomite-10]
 // ===================================================================
 
 // START ARCH-INDEPENDENT - DOLOMITE 1.1
-== {product} 1.1
+== {productname} 1.1
 
-These are {product} 1.1 release notes.
+These are {productname} 1.1 release notes.
 
 [#all-architecture-11]
 === Changes affecting all architectures
 
-Information in this section applies to all architectures supported by {product} 1.1.
+Information in this section applies to all architectures supported by {productname} 1.1.
 
 include::desktop.adoc[tag=dolomite-11]
 

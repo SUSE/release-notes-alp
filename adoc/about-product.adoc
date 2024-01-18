@@ -2,20 +2,20 @@
 include::attributes-generic.adoc[]
 
 [#intro]
-== {product}
+== {productname}
 
-{product}{nbsp}{this-version} is a description.
+{productname}{nbsp}{this-version} is a description.
 
 include::about-documentation.adoc[]
 
 [#intro-lifecycle]
 === Support and life cycle
 
-{product} is backed by award-winning support from {suse}, an established technology leader with a proven history of delivering enterprise-quality support services.
+{productname} is backed by award-winning support from {suse}, an established technology leader with a proven history of delivering enterprise-quality support services.
 
 // bnc#821338, bnc#828478, bnc#882262
-{product}{nbsp}{this-ga} has a 13-year life cycle, with 10 years of General Support and 3 years of Extended Support.
-The current version ({this-sp}) will be fully maintained and supported until 6 months after the release of {product}{nbsp}{this-ga}{nbsp}{next-sp}.
+{productname}{nbsp}{this-ga} has a 13-year life cycle, with 10 years of General Support and 3 years of Extended Support.
+The current version ({this-sp}) will be fully maintained and supported until 6 months after the release of {productname}{nbsp}{this-ga}{nbsp}{next-sp}.
 
 If you need additional time to design, validate and test your upgrade plans, Long Term Service Pack Support can extend the support duration.
 You can buy an additional 12 to 36 months in twelve month increments.
@@ -25,7 +25,7 @@ For more information, check our Support Policy page https://www.suse.com/support
 
 
 [#intro-support]
-=== Support statement for {product}
+=== Support statement for {productname}
 
 To receive support, you need an appropriate subscription with {suse}.
 For more information, see {support-url}.
@@ -39,7 +39,7 @@ Problem isolation, which means technical support designed to analyze data, repro
 L3::
 Problem resolution, which means technical support designed to resolve problems by engaging engineering to resolve product defects which have been identified by Level{nbsp}2 Support.
 
-For contracted customers and partners, {product} is delivered with L3 support for all packages, except for the following:
+For contracted customers and partners, {productname} is delivered with L3 support for all packages, except for the following:
 
 * Technology Previews, see <<intro-techpreview>>
 * Sound, graphics, fonts and artwork
@@ -64,7 +64,7 @@ sections in this document:
 [#intro-support-external]
 ==== Software requiring specific contracts
 
-Certain software delivered as part of {product} may require an external contract.
+Certain software delivered as part of {productname} may require an external contract.
 Check the support status of individual packages using the RPM metadata that can be viewed with `zypper`.
 
 Major packages and groups of packages affected by this are:
@@ -87,11 +87,11 @@ How to create a list:
 7. In License header, search for "agpl", pick all of those; in Module header, select everything but Package Hub
 ////
 
-{product} {this-version} (and the {sle} modules) includes the following software that is shipped __only__ under a GNU AGPL software license:
+{productname} {this-version} (and the {sle} modules) includes the following software that is shipped __only__ under a GNU AGPL software license:
 
 * Ghostscript (including subpackages)
 
-{product} {this-version} (and the {sle} modules) includes the following software that is shipped under multiple licenses that include a GNU AGPL software license:
+{productname} {this-version} (and the {sle} modules) includes the following software that is shipped under multiple licenses that include a GNU AGPL software license:
 
 * MySpell dictionaries and LightProof
 * ArgyllCMS

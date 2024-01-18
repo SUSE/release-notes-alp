@@ -22,8 +22,8 @@ endif::[]
 
 // disclaimer unmaintained
 ifeval::["{lifecycle}" == "unmaintained"]
-__The support period for {product} {this-version} has ended.__
-To keep systems secure and supported, upgrade to a current {product} version.
+__The support period for {productname} {this-version} has ended.__
+To keep systems secure and supported, upgrade to a current {productname} version.
 Before starting the upgrade, make sure to apply all maintenance updates.
 endif::[]
 --

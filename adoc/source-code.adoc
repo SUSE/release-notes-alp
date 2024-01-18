@@ -3,7 +3,6 @@
 include::attributes-generic.adoc[]
 include::attributes-product-micro.adoc[]
 
-[#source-code]
 == Obtaining source code
 
 This {suse} product includes materials licensed to {suse} under the GNU
