@@ -1,0 +1,9 @@
+// ===================================================================
+include::attributes-generic.adoc[]
+include::attributes-product-micro.adoc[]
+// START ARCH-INDEPENDENT
+[#security-framework]
+=== Security / Security Framework
+With {sle} we fully support {apparmor} and in addition provide the framework for {selinux} – without providing and supporting a policy for {selinux}.
+On {product} we do not support {apparmor}. {product} only supports {selinux} and in addition
+we ship a supported policy. On top of that, we will look into providing dedicated {selinux} policies for the containers we already provide or support on top of {product} (PCP and Nvidia). {product} {this-version} will have {selinux} in enforced mode as a default.

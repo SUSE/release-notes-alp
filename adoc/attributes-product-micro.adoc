@@ -1,0 +1,26 @@
+:product: {sle} Micro
+:producta: SLE Micro
+:previous-version: 5.5
+:this-version: 6.0
+:rel-date: TBD
+
+:abstract: {product} is a modern operating system primarily targeted for edge computing. This document provides a high-level overview of features, capabilities, and limitations of {product} {this-version}.
+
+:doc-url: https://documentation.suse.com/sle-micro/6.0
+:doc-url-beta: https://susedoc.github.io/doc-sle/main
+:doc-url-source: https://www.suse.com/download/sle-micro/
+
+:support-url: https://example.com/support
+:rn-url: https://www.suse.com/releasenotes
+
+// conditionals-begin
+// lifecycle: beta|maintained|unmaintained
+:lifecycle: maintained
+// conditionals-end
+
+:copyright-begin: 2024
+:copyright-end: {docyear}
+:company: SUSE LLC
+:additional-rightsholders:
+
+:sdo: Intel Secure Device Onboard

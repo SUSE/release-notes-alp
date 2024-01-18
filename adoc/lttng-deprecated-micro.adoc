@@ -1,0 +1,6 @@
+// ===================================================================
+include::attributes-generic.adoc[]
+include::attributes-product-micro.adoc[]
+// START ARCH-INDEPENDENT
+=== LTTng is deprecated
+{{product} {this-version} provides support for LTTng (Linux Trace Toolkit: next generation). Support for LTTng will however be removed in a later {product} version in favor of alternative solutions for tracing like bpftrace.

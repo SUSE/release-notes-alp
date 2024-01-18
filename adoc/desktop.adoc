@@ -13,7 +13,11 @@ This is a note that only appears in ALP 1.1 release notes.
 # tag::marble[]
 ==== Marble-only note
 
-This is a note that only appears in Marble release notes.
+Information in this section applies to all architectures supported by SUSE Linux Enterprise Micro 6.0.
+include::installation-micro.adoc[]
+include::general-features-and-fixes-micro.adoc[]
+
+
 # end::marble[]
 
 # tag::marble[]

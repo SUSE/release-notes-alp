@@ -9,6 +9,10 @@ include::abstract.adoc[]
 include::about-rn.adoc[]
 
 // ===================================================================
+//Intro abour SLE Micro
+include::what-is-sle-micro.adoc[]
+
+// ===================================================================
 
 // START ARCH-INDEPENDENT
 [#all-architecture]

@@ -1,0 +1,9 @@
+// ===================================================================
+include::attributes-generic.adoc[]
+include::attributes-product-micro.adoc[]
+// START ARCH-INDEPENDENT
+[#web-based-system-management]
+=== 1:1 Web-based System Management
+Since {product} is positioned to be used within decentralized infrastructures including Edge use cases and Industrial Edge, a system management based on current {yast2} is not within scope.
+Specifically, for Industrial Edge, a basic web-based system management was required. We have chosen the cockpit project as a base for that.
+Therefore, the cockpit packages are added to the common code base and adjusted for the Immutable OS setup of  {product}.
