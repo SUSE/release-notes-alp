@@ -17,12 +17,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
     MY NOTE TEXT HERE
     # end::alp-10[]
     ```
-    This note will only show up in ALP Dolomite 1.0 release notes document.
-    
+    This note will only show up in ALP 1.0 release notes document.
+
     2. If Micro: add the note to the relevant document with `-micro` suffix and include it in `release-notes-micro.adoc`
 
 ## Available tags
 
 The currently available tags are the following:
 
-- `dolomite-10`
+- `alp-10`
+- `micro-60`
