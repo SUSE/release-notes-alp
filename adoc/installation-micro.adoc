@@ -36,9 +36,9 @@ We will offer select images with support for cloud-init with a later milestone.
 
 === Supported architectures
 
-* Intel/AMD 64bit (`x86_64`)
+* Intel/{amd} 64bit (`x86_64`)
 * {arm} 64bit (`aarch64`)
-* IBM Z (`s390x`)
+* {ibmz} (`s390x`)
 
 === Upgrade path
 
