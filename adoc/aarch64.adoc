@@ -1,0 +1,6 @@
+include::attributes-generic.adoc[]
+
+[#aarch64]
+== {arm} 64-bit-specific features and fixes (AArch64)
+
+Information in this section applies to {productnameshort} {this-version}.
