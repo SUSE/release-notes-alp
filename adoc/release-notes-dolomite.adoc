@@ -18,29 +18,15 @@ These are {productname} 1.0 release notes.
 
 Information in this section applies to all architectures supported by {productname} 1.0.
 
-include::desktop.adoc[tag=dolomite-10]
+include::miscellaneous.adoc[]
 
 // END ARCH INDEPENDENT - DOLOMITE 1.0
 
 // ===================================================================
 
-// ===================================================================
-
-// START ARCH-INDEPENDENT - DOLOMITE 1.1
-== {productname} 1.1
-
-These are {productname} 1.1 release notes.
-
-[#all-architecture-11]
-=== Changes affecting all architectures
-
-Information in this section applies to all architectures supported by {productname} 1.1.
-
-include::desktop.adoc[tag=dolomite-11]
-
-// END ARCH INDEPENDENT - DOLOMITE 1.1
-
-// ===================================================================
 include::source-code.adoc[]
 
 include::legal.adoc[]
+
+[appendix]
+include::changelog-dolomite.adoc[]
