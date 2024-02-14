@@ -10,7 +10,7 @@ ifeval::["{lifecycle}" != "beta"]
 :label-pre:
 endif::[]
 
-:product: ALP
+:productname: ALP
 :productnameshort: ALP
 
 :rel-date: June 2024

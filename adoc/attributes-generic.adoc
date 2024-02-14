@@ -87,9 +87,10 @@
 :sap: SAP
 :slessap: {sles} for {sap} Applications
 :slessapa: {slea}S-{sap}
+:alp: ALP
 
-:dolomite: ALP 1.0
-:marble: ALP 2.0
+:dolomite: {alp}
+:marble: {slsa} Micro
 
 :hana: {sap} HANA
 :nw: {sap} NetWeaver
