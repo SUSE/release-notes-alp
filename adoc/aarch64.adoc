@@ -44,3 +44,31 @@ override this default behavior.
 
 Check for {suse} _YES!_ certified systems,
 which have undergone compatibility testing.
+
+
+// bsc#1212541
+[#jsc-PED-7865]
+=== {nvidiaorin} minimum firmware requirements
+
+// SLES 15 SP5 -> SLEM 5.5
+{productnameshort} {previous-version} added initial enablement for the
+{nvidiaorinreg} SoC (T234), which is found on {jetsonreg} AGX{nbsp}{orin},
+{jetson} {orin}{nbsp}NX and {jetson} {orin}{nbsp}Nano System-on-Modules (SoM)
+as well as {nvidia} IGX{nbsp}Orin based systems.
+
+{nvidia} {jetpackreg} 6.0 boot firmware and Linux kernel 6.5
+changed the Application Binary Interface (ABI)
+for numbering General Purpose Input/Output (GPIO) pins --
+specifically the main GPIO ports X, Y, Z, AC, AD, AE, AF and AG --
+referenced in the machine-specific vendor Device Tree (DT) binary
+for {nvidiaorin} based systems.
+// https://github.com/SUSE/kernel-source/commit/d4ea3ee04f6c78a840bca4e8a8c5d5946581aa91
+// https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=12382ad05110b569d95d29c637e16bbeb115acca
+
+{productnameshort} {this-version} adopts the behavior of the latest kernels
+and requires {nvidia} {jetpack} 6.0 or later boot firmware to be flashed
+on any {nvidiaorin} based platforms.
+
+Refer to your system vendor's documentation for how to enter Recovery Mode and
+to flash the boot firmware.
+For example: `sudo ./flash.sh _device-identifier-and-boot-medium_ external`

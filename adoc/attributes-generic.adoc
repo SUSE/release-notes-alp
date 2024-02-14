@@ -205,6 +205,8 @@
 :tegrareg: {tegra}*
 :jetson: Jetson
 :jetsonreg: {jetson}*
+:jetpack: JetPack
+:jetpackreg: {jetpack}*
 :drive: DRIVE
 :nvidiadrive: NVIDIA {drive}
 :nvidiadrivereg: {nvidiadrive}*
