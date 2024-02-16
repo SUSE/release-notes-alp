@@ -17,7 +17,10 @@ ifneq "$(LIFECYCLE)" "$(filter $(LIFECYCLE),$(LIFECYCLE_VALID))"
   override LIFECYCLE := maintained
 endif
 
-PRODUCT_VERSION ?= dolomite
+# valid values are:
+# dolomite
+# micro
+PRODUCT_VERSION ?= micro
 
 dc_file := DC-release-notes-$(PRODUCT_VERSION)
 mainfile  := adoc/release-notes-$(PRODUCT_VERSION).adoc
