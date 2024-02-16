@@ -26,4 +26,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 The currently available tags are the following:
 
 - `alp-10`
-- `micro-60`
