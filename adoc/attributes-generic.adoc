@@ -121,6 +121,8 @@
 :altrareg: {altra}*
 :altramax: Altra{nbsp}Max
 :altramaxreg: {altramax}*
+:ampereone: AmpereOne
+:ampereonereg: {ampereone}*
 // https://www.amd.com/en/corporate/trademarks
 :amd: AMD
 :amdreg: {amd}*
@@ -212,6 +214,17 @@
 :jetsonagxxavierreg: {jetsonagxxavier}*
 :pegasus: Pegasus
 :pegasusreg: {pegasus}*
+// NVIDIA Orin only?
+:orin: Orin
+:nvidiaorin: NVIDIA {orin}
+:nvidiaorinreg: {nvidiaorin}*
+// NVIDIA Grace, NVIDIA Grace Hopper only?
+:grace: Grace
+:nvidiagrace: NVIDIA {grace}
+:nvidiagracereg: {nvidiagrace}*
+:gracehopper: {grace} Hopper
+:nvidiagracehopper: NVIDIA {gracehopper}
+:nvidiagracehopperreg: {nvidiagracehopper}*
 // https://www.nxp.com/company/our-company/about-nxp/terms-of-use:TERMSOFUSE
 :nxp: NXP
 :nxpreg: {nxp}*
