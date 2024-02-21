@@ -18,6 +18,8 @@ These are {productname} 1.0 release notes.
 
 Information in this section applies to all architectures supported by {productname} 1.0.
 
+// include::basic-utilities-dolomite.adoc[]
+
 include::miscellaneous.adoc[]
 
 include::removed-deprecated.adoc[]
