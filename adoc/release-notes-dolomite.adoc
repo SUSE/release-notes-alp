@@ -20,6 +20,8 @@ Information in this section applies to all architectures supported by {productna
 
 include::miscellaneous.adoc[]
 
+include::removed-deprecated.adoc[]
+
 // END ARCH INDEPENDENT - DOLOMITE 1.0
 
 // ===================================================================
