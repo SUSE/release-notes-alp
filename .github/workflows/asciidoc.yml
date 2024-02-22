@@ -1,13 +1,14 @@
-on: [push, pull_request]
-  # push:
-  #   paths:
-  #     - "DC-*"
-  #     - "adoc/*"
-
-  # pull_request:
-  #   paths:
-  #     - "DC-*"
-  #     - "adoc/*"
+on:
+  push:
+    paths:
+      - "DC-*"
+      - "adoc/*"
+      - ".github/workflows/*"
+  pull_request:
+    paths:
+      - "DC-*"
+      - "adoc/*"
+  workflow_dispatch:
 
 
 jobs:
