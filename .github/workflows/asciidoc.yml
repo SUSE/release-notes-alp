@@ -50,4 +50,4 @@ jobs:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         with:
           artifact-path: artifact-dir
-          publish-repo: release-notes
+          publish-repo: gh:SUSEdoc/release-notes.git
