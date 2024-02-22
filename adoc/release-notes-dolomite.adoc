@@ -20,7 +20,7 @@ Information in this section applies to all architectures supported by {productna
 
 include::basic-utilities-dolomite.adoc[]
 
-include::miscellaneous.adoc[]
+include::miscellaneous-dolomite.adoc[]
 
 include::removed-deprecated.adoc[]
 
