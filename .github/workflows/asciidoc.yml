@@ -1,13 +1,14 @@
-on:
-  push:
-    paths:
-      - "DC-*"
-      - "adoc/*"
+on: [push, pull_request]
+  # push:
+  #   paths:
+  #     - "DC-*"
+  #     - "adoc/*"
 
-  pull_request:
-    paths:
-      - "DC-*"
-      - "adoc/*"
+  # pull_request:
+  #   paths:
+  #     - "DC-*"
+  #     - "adoc/*"
+
 
 jobs:
   validate:
