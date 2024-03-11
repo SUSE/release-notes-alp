@@ -87,6 +87,10 @@ As a workaround, you can use Salt via cmd.run podman.
 
 We intend to resolve these issues in the future maintenance updates of {productname} on {suma}.
 
+=== Public Cloud Images
+
+The Public Cloud instance initialization code has been changed from using Ignition and Afterburn to cloud-init in AWS EC2, cloud-init and the Azure agent in Azure, and the Google guest environment for GCE. This means configuration of instances through user data now behaves the same as SUSE Linux Enterprise Server, any version, instances. This also addresses the issue in Azure with the state detection of the VM. The web console will now properly show a VM in "Running" state instead of appearing to be stuck in "Provisioning". This also allows user configuration through the web console in Azure and user configuration using the customary ways in AWS EC2 and GCE.
+
 
 
 
