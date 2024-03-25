@@ -87,9 +87,7 @@
 :sap: SAP
 :slessap: {sles} for {sap} Applications
 :slessapa: {slea}S-{sap}
-:alp: ALP
 
-:dolomite: {alp}
 :marble: {slsa} Micro
 
 :hana: {sap} HANA

@@ -1,5 +1,5 @@
-:productname: {sle} Micro
-:productnameshort: {slea} Micro
+:productname: {suse} Linux Micro
+:productnameshort: {suse} Linux Micro
 :idprefix: micro_
 :previous-version: 5.5
 :this-version: 6.0

@@ -2,6 +2,6 @@ include::attributes-generic.adoc[]
 
 [#Known-issues-micro]
 == Known issues
-* We do not have a Package HUB for the ALP codebase as of today.
+* We do not have a Package HUB for the new framework codebase as of today.
 We expect to have PH based on top of Micro 6. in 2025.
 

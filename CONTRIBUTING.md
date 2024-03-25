@@ -87,13 +87,10 @@ The release notes are written using AsciiDoc. See the [AsciiDoc documentation](h
 * Run `make validate` to check for errors
 * Run `make html` to see your changes
     * Replace `html` with a different format (`pdf`, `single-html`, `text`) or `all` to generate all formats
-* Append `PRODUCT_VERSION=$PRODUCT` to generate release notes for that product, for example: `make all PRODUCT_VERSION=micro`. Available products are:
-    * `micro` (default)
-    * `dolomite`
 
 ## Repository structure
 
-This repository contains all versions of a single product variant.
+This repository contains all versions of SUSE Linux Micro.
 
 # Creating a bug report
 
