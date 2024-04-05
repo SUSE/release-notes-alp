@@ -19,7 +19,8 @@ System-on-Chip (SoC) chipsets:
 * {fujitsureg} A64FX
 * {huaweireg} {kunpengreg} 916, {kunpeng} 920
 * {marvellreg} {thunderxreg}, {thunderx2reg}; {octeon-txreg}; {armadareg} 7040, {armada} 8040
-* {nvidiareg} {grace}; {tegrareg}{nbsp}X1, Tegra{nbsp}X2, {xavierreg}, {orin}; {bluefieldreg}, _{bluefield2}_
+// jsc#PED-8032 (BF3)
+* {nvidiareg} {grace}; {tegrareg}{nbsp}X1, Tegra{nbsp}X2, {xavierreg}, {orin}; {bluefieldreg}, _{bluefield2}_, _{bluefield3}_
 // jsc#SLE-12251 (LS1012A), jsc#SLE-11914 (i.MX 8MM)
 * {nxpreg} {imx} 8M, 8M{nbsp}Mini; {layerscapereg} LS1012A, LS1027A/LS1017A, LS1028A/LS1018A, LS1043A, LS1046A, LS1088A, LS2080A/LS2040A, LS2088A, LX2160A
 // * {qcomreg} {centriqreg} 2400
