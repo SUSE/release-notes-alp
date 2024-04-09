@@ -24,6 +24,7 @@ jobs:
           validate-tables: true
   build:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     needs: validate
     steps:
       - uses: actions/checkout@v4
@@ -38,7 +39,7 @@ jobs:
           retention-days: 3
   publish:
     runs-on: ubuntu-latest
-    if: ${{ success() }}
+    if: ${{ success() }} && github.ref == 'refs/heads/main'
     needs: build
     continue-on-error: true
     steps:
