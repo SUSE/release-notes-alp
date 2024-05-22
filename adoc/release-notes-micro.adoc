@@ -32,6 +32,9 @@ include::general-features-and-fixes-micro.adoc[]
 // Arm-specific
 include::aarch64.adoc[]
 
+// Power-specific
+// include::power-micro.adoc[]
+
 // ===================================================================
 
 ifndef::release-notes-all[]
