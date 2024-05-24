@@ -19,6 +19,7 @@ endif::[]
 // ===================================================================
 
 // START ARCH-INDEPENDENT
+[#all-architecture]
 == Changes affecting all architectures
 
 Information in this section applies to all architectures supported by {productnameshort} {this-version}.
@@ -27,7 +28,42 @@ include::installation-micro.adoc[]
 
 include::general-features-and-fixes-micro.adoc[]
 
-// END ARCH INDEPENDENT
+// include::authentication.adoc[]
+
+// include::basic-utility.adoc[]
+
+// include::container.adoc[]
+
+// include::database.adoc[]
+
+// include::desktop.adoc[]
+
+// include::development.adoc[]
+
+// include::hardware.adoc[]
+
+// include::kernel.adoc[]
+
+include::miscellaneous-micro.adoc[]
+
+// include::network.adoc[]
+
+// include::performance.adoc[]
+
+// include::security.adoc[]
+
+// include::storage.adoc[]
+
+// include::package-hub.adoc[]
+
+// include::system-management.adoc[]
+
+// include::virtualization.adoc[]
+
+// END ARCH-INDEPENDENT
+
+// x86-64-specific
+// include::x86-64.adoc[]
 
 // Arm-specific
 include::aarch64.adoc[]
