@@ -10,8 +10,8 @@ ifeval::["{lifecycle}" != "beta"]
 :label-pre:
 endif::[]
 
-:productname: ALP
-:productnameshort: ALP
+:productname: Dolomite
+:productnameshort: Dolomite
 
 :rel-date: June 2024
 :this-version: 1.0
