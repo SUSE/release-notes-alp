@@ -1,6 +1,6 @@
-# SUSE Linux Micro Release Notes
+# SUSE Linux Enterprise Micro Release Notes
 
-This repository contains release notes for SUSE Linux Micro written in [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/).
+This repository contains release notes for SUSE Linux Enterprise Micro written in [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/).
 
 
 ## How to contribute
