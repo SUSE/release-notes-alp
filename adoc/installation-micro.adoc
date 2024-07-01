@@ -44,7 +44,7 @@ We will offer select images with support for cloud-init with a later milestone.
 
 An online migration of existing {productname} 5.5 installations to {productname} 6.0 is possible and is fully supported.
 Upgrading from {productname} 5.5 is only possible via the `transactional-update` tool.
-For the upgrade procedure, refer to {doc-url}/html/SLE-Micro-all/book-upgrade-slemicro.html
+For the upgrade procedure, refer to {doc-url}/html/Micro-upgrade/index.html
 
 === Change in installation methods
 
@@ -63,6 +63,6 @@ Installation with Yomi is a technology preview.
 {productnameshort} is provided as raw images which can be deployed directly to a storage device, for example, a memory card, a USB stick, or a hard drive.
 {productnameshort} is also provided as images for specific hardware device with a customized software selection.
 
-For a procedure of deploying an image refer to {doc-url}/html/SLE-Micro-all/part-raw-image.html
+For a procedure of deploying an image refer to {doc-url}/html/Micro-deployment-raw-images/index.html
 
 In addition to media provided by {productnameshort} 5.4, this release includes qcow2 images for  aarch64 and x86_64.
