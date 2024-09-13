@@ -23,3 +23,8 @@ A RPM plugin for IMA (Integrity Measurement Architecture)/EVM (Linux Extended Ve
 The plugin is installed as part of the following package:
 
 * `rpm-imaevmsign`
+
+=== Toolbox container
+
+When you run the toolbox script to pull and start the toolbox container, a previous version of the container image is pulled.
+This does not influence toolbox funcionality and you can use the toolbox container as needed.
